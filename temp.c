@@ -6,9 +6,9 @@ int temps[5];
 int soma = 0;
 int i = 0;
 while (i < 5) {
-    char t;
+    int t;
     printf("Temperatura: ");
-    scanf(" %c", &t);
+    scanf("%d", &t);
     temps[i] = t;
     soma = (soma + t);
     i = (i + 1);
